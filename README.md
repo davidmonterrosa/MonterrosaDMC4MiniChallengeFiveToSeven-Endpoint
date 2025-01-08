@@ -18,6 +18,8 @@ Design an API with 4 endpoints based on mini challenges from the Combine:
 4. ReverseIt (Numbers Only): endpoint that accepts a sequence of only numbers and reverses them.  Be sure to display the original characters before the reversed.  For example:
      - "You entered 12345, reversed is 54321"
 
+[Github Repository](https://github.com/davidmonterrosa/MonterrosaDMC4MiniChallengeFiveToSeven-Endpoint.git)
+
 ***Change Log***
 + mm/dd/yyyy - DM - short description
 - 01/08/2025 - DM - Created git repository.
