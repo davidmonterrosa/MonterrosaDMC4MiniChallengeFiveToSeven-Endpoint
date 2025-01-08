@@ -1,0 +1,6 @@
+@MonterrosaDMC4MiniChallengeFiveToSeven_Endpoint_HostAddress = http://localhost:5082
+
+GET {{MonterrosaDMC4MiniChallengeFiveToSeven_Endpoint_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
