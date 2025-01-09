@@ -24,5 +24,5 @@ Design an API with 4 endpoints based on mini challenges from the Combine:
 + mm/dd/yyyy - DM - short description
 - 01/08/2025 - DM - Created git repository.
 
-Peer Reviewed By: 
-> Comments:
+Peer Reviewed By: Ian Chesley
+> Comments: The code looks good. The endpoints run without issue. Well Done!
