@@ -1,3 +1,5 @@
+using MonterrosaDMC4MiniChallengeFiveToSeven_Endpoint.Services;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -6,6 +8,10 @@ builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+builder.Services.AddScoped<MadLibServices>();
+builder.Services.AddScoped<OddOrEvenServices>();
+builder.Services.AddScoped<ReverseItAlphaNumericServices>();
+builder.Services.AddScoped<ReverseItNumbersServices>();
 
 var app = builder.Build();
 
